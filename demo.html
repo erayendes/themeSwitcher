@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Switcher - Demo</title>
+    <link rel="stylesheet" href="themeToggle.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            color-scheme: light;
+        }
+        
+        html.dark {
+            color-scheme: dark;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #f9fafb;
+            color: #1f2937;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        
+        html.dark body {
+            background-color: #111827;
+            color: #f3f4f6;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        main {
+            background-color: white;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+        
+        html.dark main {
+            background-color: #1f2937;
+        }
+        
+        h1 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            color: #1f2937;
+        }
+        
+        html.dark h1 {
+            color: #f3f4f6;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            border-top: 1px solid #e5e7eb;
+        }
+        
+        html.dark footer {
+            border-top-color: #374151;
+        }
+        
+        .demo-group {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #f9fafb;
+            border-radius: 8px;
+        }
+        
+        html.dark .demo-group {
+            background-color: #111827;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <main>
+            <h1>🎨 Theme Switcher Demo</h1>
+            
+            <p>Tema butonlarına tıklayarak light/dark teması arasında geçiş yapabilirsiniz. Tema tercihleriniz kaydedilir ve sonraki ziyaretlerde hatırlanır.</p>
+            
+            <div class="demo-group">
+                <h2>Tema Seçimi</h2>
+                <p>Aşağıdaki butonları kullanarak temayı değiştirin:</p>
+                
+                <div class="theme-toggle-container" style="margin-top: 15px;">
+                    <button class="theme-btn" data-theme="light" aria-label="light mode">light</button>
+                    <button class="theme-btn" data-theme="dark" aria-label="dark mode">dark</button>
+                    <button class="theme-btn" data-theme="auto" aria-label="auto mode">auto</button>
+                </div>
+            </div>
+            
+            <p style="margin-top: 20px;">Auto modu seçince sistem tema ayarınızı otomatik olarak takip edecektir.</p>
+        </main>
+        
+        <footer>
+            <p>Theme Switcher | Made with ❤️</p>
+        </footer>
+    </div>
+    
+    <script src="themeManager.js"></script>
+</body>
+</html>
