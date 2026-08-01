@@ -58,13 +58,13 @@ Full guides live in docs/:
 
 ## Support
 
-Need help or found a bug? Check the [Support guide](.github/SUPPORT.md) or open an issue.
+Need help or found a bug? Check the [Support guide](.github/SUPPORT.md).
 
 If this project is useful to you, consider supporting its development through [GitHub Sponsors](https://github.com/sponsors/erayendes) or [Buy Me a Coffee](https://buymeacoffee.com/erayendes).
 
 ## Contributing
 
-Bug reports and pull requests are welcome - see .github/CONTRIBUTING.md. This project follows a Code of Conduct.
+This project is not currently accepting external contributions - see .github/CONTRIBUTING.md. This project follows a Code of Conduct.
 
 ## Citation
 
