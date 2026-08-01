@@ -1,13 +1,15 @@
 # Support
 
-## Getting Help
+This project is not currently accepting external contributions. Issues and pull requests are disabled on this repository.
 
-- Documentation: start with the docs (docs/README.md) for installation, API reference, and customization guides.
-- - FAQ: check docs/FAQ.md - many common questions are already answered there.
-  - - Bugs: search existing issues before opening a new bug report: https://github.com/erayendes/themeSwitcher/issues
-    - - Questions and ideas: open an issue with the question label, or use GitHub Discussions if enabled.
-     
-      - ## Response Times
-     
-      - This is a small open-source project maintained in spare time. There's no guaranteed response time, but bug reports and pull requests are generally reviewed within a week.
-      - 
+## Documentation
+
+Start with the guides in docs/: Installation, API Reference, Customization, and FAQ. Most common questions are already answered there.
+
+## Security Issues
+
+For security vulnerabilities, see SECURITY.md and email erayendes@gmail.com directly rather than filing a public report.
+
+## Other Questions
+
+This is a single-maintainer project without a general support channel. Feel free to fork the repository and adapt it to your own needs under the MIT License.
