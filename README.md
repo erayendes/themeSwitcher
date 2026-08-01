@@ -2,7 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 ![Yerli Uretim](https://img.shields.io/badge/%F0%9F%A4%9D-YERL%C4%B0%20%C3%9CRET%C4%B0M-red)
-[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor-%E2%9D%A4-red)][![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/erayendes)
+![Sponsor on GitHub](https://img.shields.io/badge/Sponsor-%E2%9D%A4-red)]
+![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/erayendes)
 
 A lightweight, portable theme mode component (`light`, `dark`, `auto`) for any web project. Add it in three lines, ready for production.
 
