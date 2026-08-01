@@ -1,17 +1,15 @@
 # Governance
 
-Theme Switcher is a small, single-maintainer open-source project.
+Theme Switcher is a single-maintainer open-source project.
 
 ## Roles
 
-- Maintainer (@erayendes): reviews and merges pull requests, triages issues, and cuts releases. Currently the sole maintainer.
-- - Contributors: anyone who opens an issue or pull request. There's no formal application process - showing up with good, well-scoped contributions is how you become a regular contributor.
- 
-  - ## Decision Making
- 
-  - For small changes (bug fixes, documentation, minor features), the maintainer merges pull requests directly after review. For larger or breaking changes, the change is discussed in an issue first before implementation begins.
- 
-  - ## Becoming a Maintainer
- 
-  - As the project grows, additional maintainers may be invited based on sustained, high-quality contributions. There's no fixed timeline or quota for this.
-  - 
+Maintainer (@erayendes): owns all decisions about the project's direction, releases, and code. This is currently the only role, since the project does not accept external contributions.
+
+## Decision Making
+
+All changes are made directly by the maintainer. Issues and pull requests are disabled on this repository, so there is no public contribution or review process at this time.
+
+## Future Changes
+
+If this project reopens to outside contributions in the future, this document will be updated to reflect a new governance and contribution process.
